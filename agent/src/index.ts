@@ -496,7 +496,8 @@ export async function createAgent(
         plugins: [
             bootstrapPlugin,
             nodePlugin,
-            seraphPlugin
+            webSearchPlugin,
+            seraphPlugin,
         ].filter(Boolean),
         providers: [],
         actions: [],
